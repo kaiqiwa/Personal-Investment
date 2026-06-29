@@ -1,0 +1,7 @@
+# No third-party runtime dependencies.
+# Install the package in editable mode for development:
+#   pip install -e .
+#
+# Install test dependencies:
+#   pip install pytest
+pytest>=7.0

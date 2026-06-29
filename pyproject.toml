@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "personal-investment"
+version = "0.1.0"
+description = "A personal investment portfolio management framework."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+invest = "investment.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["investment*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

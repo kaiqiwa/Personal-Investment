@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: personal-investment
+Version: 0.1.0
+Summary: A personal investment portfolio management framework.
+Requires-Python: >=3.10
